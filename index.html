@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="app.css" rel="stylesheet">
+    <title>Bliv Lastbilchauffør</title>
+    <meta name="robots" content="noindex">
+</head>
+<body class="bg-white">
+<div class="absolute z-10 w-full bg-outer-space-500 text-gray-300 text-opacity-75 text-xs">
+    <div class="md:block max-w-7xl mx-auto">
+        <div class="flex items-center justify-end font-cairo font-semibold">
+            <a href="https://www.facebook.com/amujuul" rel="noopener" target="_blank" class="mx-1 py-[3px] text-white hover:text-opacity-50 active:text-opacity-25 transition-colors duration-200">
+                <span class="sr-only">Facebook</span>
+                <svg class="w-[22px] h-[22px]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/amujuul" rel="noopener" target="_blank" class="mx-1 text-white hover:text-opacity-50 active:text-opacity-25 transition-colors duration-200">
+                <span class="sr-only">Instagram</span>
+                <svg class="w-[22px] h-[22px]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+            <a href="https://www.youtube.com/channel/UCftMQQgOmpJGFY9W4nvuHOw" rel="noopener" target="_blank" class="ml-1 mr-1.5 text-white hover:text-opacity-50 active:text-opacity-25 transition-colors duration-200">
+                <span class="sr-only">YouTube</span>
+                <svg class="w-[22px] h-[22px]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/company/amu-juul-a-s" rel="noopener" target="_blank" class="mx-1 text-white hover:text-opacity-50 active:text-opacity-25 transition-colors duration-200">
+                <span class="sr-only">LinkedIn</span>
+                <svg class="w-[20px] h-[20px]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+<header class="flex flex-col justify-end max-w-7xl h-screen mx-auto pt-16 px-4 pb-4 sm:pt-24 sm:px-6 sm:pb-6 lg:px-8">
+    <div class="absolute inset-0 overflow-hidden">
+        <div class="relative z-10 mx-auto max-w-7xl flex-shrink-0 flex items-center">
+            <a href="https://www.blivlastbilchauffoer.dk" class="block">
+                <img src="logo.svg" class="absolute w-[167px] top-10 top-0 lg:w-[272px]" alt="AMU JUUL" width="272px" height="65px">
+            </a>
+        </div>
+        <video autoplay="autoplay" class="absolute top-1/2 left-1/2 min-w-full min-h-full max-w-[2560px] z-0 translate-x-[-45%] translate-y-[-40%] md:translate-x-[-50%] md:translate-y-[-50%] block" loop="loop" muted="muted" playsinline="" src="lastbilchauffoer.mp4" x-webkit-airplay="deny"></video>
+        <div class="absolute inset-0 bg-white mix-blend-multiply" aria-hidden="true"></div>
+    </div>
+    <div class="relative z-10 w-full mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+        <div class="text-center space-y-6 text-white">
+            <h1 class="mt-1 text-4xl font-extrabold sm:text-5xl sm:tracking-tight lg:text-6xl">Bliv Lastbilchauffør</h1>
+            <a href="" class="inline-block mx-auto px-8 py-2.5 text-lg bg-stiletto-500 hover:bg-stiletto-400 active:bg-stiletto-600 focus:outline-none focus:ring focus:ring-stiletto-500/50 transition-colors duration-100">Find dit kursus</a>
+        </div>
+    </div>
+</header>
+<section class="bg-secondary border-t border-gray-200">
+    <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div class="mt-8 max-w-prose mx-auto lg:max-w-none lg:grid lg:grid-cols-2 lg:gap-8">
+            <div class="space-y-3">
+                <h2 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl text-outer-space-700">Gør en forskel som lastbilchauffør</h2>
+                <div class="mt-4">
+                    <p class="text-lg text-outer-space-600">Var dit første ord "vrrruum"? Eller har du en drøm om at holde hjulene i gang? Så tag et lastbilkørekort! Du bliver en meget vigtig del af samfundet. Uden dig ville hylderne i butikken være tomme og byggeprojekterne gå i stå.</p>
+                </div>
+                <p>Der er stor mangel på nye lastbilchauffører i Danmark, og derfor er der gode muligheder for at få job i transportbranchen.</p>
+                <div class="mt-3 text-outer-space-700 prose prose-rhino mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+                    <p>Som chauffør kan du gøre en forskel på mange forskellige områder. Du kan arbejde som:</p>
+                    <ul class="list-disc list-inside my-2.5 ml-4" role="list">
+                        <li>Godschauffør</li>
+                        <li>Renovationschauffør</li>
+                        <li>Tankbilchauffør</li>
+                        <li>Fragtchauffør</li>
+                        <li>Flyttemand</li>
+                        <li>Selvstændig vognmand</li>
+                    </ul>
+                    <p>… og mange flere!</p>
+                </div>
+            </div>
+            <div class="relative lg:row-start-1 lg:col-start-2">
+                <div class="relative text-base mx-auto max-w-prose lg:max-w-none mt-5 lg:mt-0">
+                    <figure>
+                        <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
+                            <img class="rounded-lg shadow-lg object-cover object-center"
+                                alt="Gør en forskel som lastbilchauffør" width="600" height="700"
+                                src="lastbil.png">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="border-t border-gray-200">
+    <figure class="media max-w-5xl lg:max-w-6xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+        <div data-oembed-url="https://www.youtube.com/embed/0wqFiSu_noM?rel=0">
+            <div style="position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;">
+                <iframe src="https://www.youtube.com/embed/0wqFiSu_noM?rel=0" class="absolute w-full h-full top-0 left-0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="" frameborder="0" title="Lastbilchauffør" loading="lazy"
+                ></iframe>
+            </div>
+        </div>
+    </figure>
+</section>
+<footer class="bg-outer-space-900" aria-labelledby="footerHeading">
+    <div class="max-w-7xl mx-auto pt-12 px-4 sm:px-6 lg:pt-12 lg:px-8">
+        <div class="md:grid md:grid-cols-3 md:gap-12 lg:grid lg:grid-cols-3 lg:gap-12">
+            <div class="space-y-5 lg:col-span-1 lg:border-r-2 lg:border-outer-space-800 pb-12">
+                <a href="https://www.amujuul.dk/">
+                    <img width="228px" height="25px" alt="AMU JUUL" class="mb-5" loading="lazy" src="logo-footer.svg">
+                </a>
+                <p class="ml-[-3px]">
+                    <a href="tel:+4539391111" rel="noopener noreferrer" title="<?= __('customer_service') ?> 39 39 11 11" class="group inline-block py-2">
+                        <svg class="h-8 w-8 -mt-2 text-white fill-current inline-block group-hover:text-stiletto-400 group-active:text-stiletto-600 transition-colors duration-100" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.89286 4.75H6.06818C5.34017 4.75 4.75 5.34017 4.75 6.06818C4.75 13.3483 10.6517 19.25 17.9318 19.25C18.6598 19.25 19.25 18.6598 19.25 17.9318V15.1071L16.1429 13.0357L14.5317 14.6468C14.2519 14.9267 13.8337 15.0137 13.4821 14.8321C12.8858 14.524 11.9181 13.9452 10.9643 13.0357C9.98768 12.1045 9.41548 11.1011 9.12829 10.494C8.96734 10.1537 9.06052 9.76091 9.32669 9.49474L10.9643 7.85714L8.89286 4.75Z"></path>
+                        </svg>
+                        <span class="text-2xl font-bold text-white group-hover:text-stiletto-400 group-active:text-stiletto-600 transition-colors duration-100">39 39 11 11</span>
+                    </a>
+                </p>
+                <div class="grid gap-5">
+                    <p class="ml-[-3px]">
+                        <a href="mailto:info@amujuul.dk" title="info@amujuul.dk" class="text-white text-sm text-opacity-75 hover:text-gray-400"><svg class="h-6 w-6 -mt-1 inline-block" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 7.75C4.75 6.64543 5.64543 5.75 6.75 5.75H17.25C18.3546 5.75 19.25 6.64543 19.25 7.75V16.25C19.25 17.3546 18.3546 18.25 17.25 18.25H6.75C5.64543 18.25 4.75 17.3546 4.75 16.25V7.75Z"></path>
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.5 6.5L12 12.25L18.5 6.5"></path>
+                        </svg> info@amujuul.dk</a>
+                        <br>
+                        <a href="mailto:sikker@amujuul.dk" title="sikker@amujuul.dk" class="text-white text-sm text-opacity-75 hover:text-gray-400"><svg class="h-6 w-6 -mt-1 inline-block" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 11.75C5.75 11.1977 6.19772 10.75 6.75 10.75H17.25C17.8023 10.75 18.25 11.1977 18.25 11.75V17.25C18.25 18.3546 17.3546 19.25 16.25 19.25H7.75C6.64543 19.25 5.75 18.3546 5.75 17.25V11.75Z"></path>
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.75 10.5V10.3427C7.75 8.78147 7.65607 7.04125 8.74646 5.9239C9.36829 5.2867 10.3745 4.75 12 4.75C13.6255 4.75 14.6317 5.2867 15.2535 5.9239C16.3439 7.04125 16.25 8.78147 16.25 10.3427V10.5"></path>
+                        </svg> sikker@amujuul.dk</a>
+                    </p>
+                    <p class="text-white text-opacity-75">CVR: 28848676</p>
+                    <div class="flex space-x-6 text-center">
+                        <a href="https://facebook.com/amujuul" rel="noopener" target="_blank" class="text-white hover:text-stiletto-500 active:text-stiletto-600 transition-colors duration-200">
+                            <span class="sr-only">Facebook</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com/amujuul" rel="noopener" target="_blank" class="text-white hover:text-stiletto-500 active:text-stiletto-600 transition-colors duration-200">
+                            <span class="sr-only">Instagram</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCftMQQgOmpJGFY9W4nvuHOw" rel="noopener" target="_blank" class="text-white hover:text-stiletto-500 active:text-stiletto-600 transition-colors duration-200">
+                            <span class="sr-only">YouTube</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/amu-juul-a-s" rel="noopener" target="_blank" class="text-white hover:text-stiletto-500 active:text-stiletto-600 transition-colors duration-200">
+                            <span class="sr-only">LinkedIn</span>
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 gap-8 md:mt-0 md:col-span-2 lg:grid-cols-1 lg:mt-0 lg:col-span-2">
+                <div class="grid grid-cols-1 gap-8 sm:gap-x-16 sm:gap-y-8 sm:grid-cols-2 md:gap-6 lg:grid-cols-3">
+                    <div>
+                        <h3 class="text-sm font-semibold text-white tracking-wider uppercase">
+                            <a href="#">Lastbil</a>
+                        </h3>
+                        <ul class="mt-2 space-y-1">
+                            <li class="leading-tight text-white text-opacity-90 hover:text-gray-400">
+                                <a href="#" class="block">Lastbilchauffør</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 border-t-2 border-outer-space-800 text-xs text-white text-opacity-50 mt-12 py-4">
+            <div class="order-last mt-3 md:order-none md:mt-0">&copy; 2022 AMU JUUL &mdash; Alle rettigheder forbeholdes</div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
