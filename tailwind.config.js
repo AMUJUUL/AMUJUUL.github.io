@@ -51,7 +51,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['Roboto'],
+        sans: ['Open Sans'],
         cairo: ['Cairo'],
       },
     },
