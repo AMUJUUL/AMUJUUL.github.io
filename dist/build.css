@@ -1041,6 +1041,11 @@ html {
   background-color: rgb(25 27 29 / var(--tw-bg-opacity));
 }
 
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .fill-current {
   fill: currentColor;
 }
