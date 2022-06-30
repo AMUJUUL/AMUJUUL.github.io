@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     './*.{html,js}',
@@ -51,8 +52,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['Open Sans'],
-        cairo: ['Cairo'],
+        'sans': ['Open Sans', ...defaultTheme.fontFamily.sans],
+        'cairo': ['Cairo'],
       },
     },
   },
