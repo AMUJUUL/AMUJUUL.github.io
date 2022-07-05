@@ -417,148 +417,6 @@ video {
   height: auto;
 }
 
-html {
-  font-family: Open Sans, system-ui, sans-serif;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-
-  font-style: normal;
-
-  font-weight: 400;
-
-  src: local(''), url('../fonts/open-sans/open-sans-v29-latin-regular.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-regular.woff') format('woff');
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-
-  font-style: normal;
-
-  font-weight: 500;
-
-  src: local(''), url('../fonts/open-sans/open-sans-v29-latin-500.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-500.woff') format('woff');
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-
-  font-style: normal;
-
-  font-weight: 700;
-
-  src: local(''), url('../fonts/open-sans/open-sans-v29-latin-700.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-700.woff') format('woff');
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-
-  font-style: normal;
-
-  font-weight: 800;
-
-  src: local(''), url('../fonts/open-sans/open-sans-v29-latin-800.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-800.woff') format('woff');
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-
-  font-style: italic;
-
-  font-weight: 400;
-
-  src: local(''), url('../fonts/open-sans/open-sans-v29-latin-italic.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-italic.woff') format('woff');
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-
-  font-style: italic;
-
-  font-weight: 500;
-
-  src: local(''), url('../fonts/open-sans/open-sans-v29-latin-500italic.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-500italic.woff') format('woff');
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-
-  font-style: italic;
-
-  font-weight: 700;
-
-  src: local(''), url('../fonts/open-sans/open-sans-v29-latin-700italic.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-700italic.woff') format('woff');
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-
-  font-style: italic;
-
-  font-weight: 800;
-
-  src: local(''), url('../fonts/open-sans/open-sans-v29-latin-800italic.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-800italic.woff') format('woff');
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Cairo';
-
-  font-weight: 400;
-
-  src: local(''), url('../fonts/cairo/cairo-v14-latin-regular.woff2') format('woff2'), url('../fonts/cairo/cairo-v14-latin-regular.woff') format('woff');
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Cairo';
-
-  font-weight: 600;
-
-  src: local(''), url('../fonts/cairo/cairo-v14-latin-600.woff2') format('woff2'), url('../fonts/cairo/cairo-v14-latin-600.woff') format('woff');
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Cairo';
-
-  font-weight: 700;
-
-  src: local(''), url('../fonts/cairo/cairo-v14-latin-700.woff2') format('woff2'), url('../fonts/cairo/cairo-v14-latin-700.woff') format('woff');
-
-  font-display: swap;
-}
-
-.link {
-  position: relative;
-  font-weight: 500;
-  --tw-text-opacity: 1;
-  color: rgb(174 51 56 / var(--tw-text-opacity));
-}
-
-.link:hover {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -712,6 +570,10 @@ html {
   border-width: 0;
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -727,8 +589,8 @@ html {
   left: 0px;
 }
 
-.top-0 {
-  top: 0px;
+.top-7 {
+  top: 1.75rem;
 }
 
 .left-2\.5 {
@@ -745,6 +607,22 @@ html {
 
 .left-1\/2 {
   left: 50%;
+}
+
+.right-2\.5 {
+  right: 0.625rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .z-10 {
@@ -903,6 +781,10 @@ html {
 
 .h-2 {
   height: 0.5rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .min-h-full {
@@ -1153,6 +1035,10 @@ html {
   padding-bottom: 3rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1359,6 +1245,10 @@ html {
 }
 
 @media (min-width: 640px) {
+  .sm\:top-0 {
+    top: 0px;
+  }
+
   .sm\:w-\[272px\] {
     width: 272px;
   }
