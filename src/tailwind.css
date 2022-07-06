@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@supports (-webkit-touch-callout: none) {
-    .h-screen {
-        /* The hack for Safari */
-        height: -webkit-fill-available;
-    }
-}
-
 @layer base {
     html {
         font-family: Open Sans, system-ui, sans-serif;
