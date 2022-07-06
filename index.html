@@ -39,7 +39,7 @@
         </div>
     </div>
 </div>
-<header class="relative sm:static flex flex-col justify-end max-w-7xl h-screen mx-auto pt-16 px-4 pb-8 sm:pt-24 sm:px-6 sm:pb-12 lg:px-8" id="header">
+<header class="flex flex-col justify-end max-w-7xl mx-auto h-screen pt-16 px-4 pb-8 sm:pt-24 sm:px-6 sm:pb-12 lg:px-8">
     <div class="absolute inset-0 overflow-hidden">
         <div class="relative z-10 mx-auto max-w-7xl flex-shrink-0 flex items-center">
             <a href="https://www.blivlastbilchauffoer.dk" class="block">
@@ -362,14 +362,13 @@
     </div>
 </footer>
 <script>
-    const setHeight = () => {
-        document.documentElement.style.setProperty('--vh', window.innerHeight * 0.01 + 'px')
-    }
+    let vh = window.innerHeight * 0.01;
+    const setHeight = () => { document.documentElement.style.setProperty('--vh', `${vh}px`) }
 
     let deviceWidth = window.matchMedia('(max-width: 1024px)')
     if (deviceWidth.matches) {
         window.addEventListener('resize', setHeight)
-        setHeight();
+        setHeight()
     }
 </script>
 <script defer>

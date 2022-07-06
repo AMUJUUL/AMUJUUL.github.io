@@ -1363,10 +1363,6 @@ header {
 }
 
 @media (min-width: 640px) {
-  .sm\:static {
-    position: static;
-  }
-
   .sm\:top-0 {
     top: 0px;
   }
