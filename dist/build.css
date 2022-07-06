@@ -885,10 +885,6 @@ header {
   height: 20px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-8 {
   height: 2rem;
 }
