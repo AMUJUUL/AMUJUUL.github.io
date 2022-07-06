@@ -6,6 +6,9 @@
     html {
         font-family: Open Sans, system-ui, sans-serif;
     }
+    header {
+        min-height: calc(var(--vh, 1vh) * 100);
+    }
     @font-face {
         font-family: 'Open Sans';
         font-style: normal;

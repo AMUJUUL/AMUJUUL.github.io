@@ -39,7 +39,7 @@
         </div>
     </div>
 </div>
-<header class="relative sm:static flex flex-col justify-end max-w-7xl min-h-screen mx-auto pt-16 px-4 pb-8 sm:pt-24 sm:px-6 sm:pb-12 lg:px-8">
+<header class="relative sm:static flex flex-col justify-end max-w-7xl h-screen mx-auto pt-16 px-4 pb-8 sm:pt-24 sm:px-6 sm:pb-12 lg:px-8" id="header">
     <div class="absolute inset-0 overflow-hidden">
         <div class="relative z-10 mx-auto max-w-7xl flex-shrink-0 flex items-center">
             <a href="https://www.blivlastbilchauffoer.dk" class="block">
@@ -361,6 +361,17 @@
         </div>
     </div>
 </footer>
+<script>
+    const setHeight = () => {
+        document.documentElement.style.setProperty('--vh', window.innerHeight * 0.01 + 'px')
+    }
+
+    let deviceWidth = window.matchMedia('(max-width: 1024px)')
+    if (deviceWidth.matches) {
+        window.addEventListener('resize', setHeight)
+        setHeight();
+    }
+</script>
 <script defer>
     window.__lc = window.__lc || {};window.__lc.license = 12716457;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
 </script>
