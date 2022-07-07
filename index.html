@@ -372,14 +372,10 @@
         }
     }
 
-    let height = window.innerHeight
-    const setHeight = () => {
-        if (height !== window.innerHeight) document.documentElement.style.setProperty('--vh', window.innerHeight * 0.01 + 'px')
-    }
+    const setHeight = () => document.documentElement.style.setProperty('--vh', window.innerHeight * 0.01 + 'px')
     let deviceWidth = window.matchMedia('(max-width: 1024px)')
     if (deviceWidth.matches) {
         window.addEventListener('resize', debounce(setHeight))
-        screen.orientation.addEventListener('change', debounce(setHeight))
         setHeight()
     }
 </script>
