@@ -873,10 +873,6 @@ header {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .h-\[22px\] {
   height: 22px;
 }
@@ -891,18 +887,6 @@ header {
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-1 {
-  height: 0.25rem;
-}
-
-.h-0 {
-  height: 0px;
-}
-
-.h-2 {
-  height: 0.5rem;
 }
 
 .min-h-full {
